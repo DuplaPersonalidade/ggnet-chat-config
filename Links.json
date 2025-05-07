@@ -1,0 +1,5 @@
+[
+  { "label": "Painel de Clientes", "url": "https://painel.exemplo.com" },
+  { "label": "Central do Assinante", "url": "https://central.exemplo.com" },
+  { "label": "Documentação", "url": "https://docs.exemplo.com" }
+]
