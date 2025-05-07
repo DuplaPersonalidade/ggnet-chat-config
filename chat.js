@@ -1,4 +1,17 @@
-const style = document.createElement('style');
+// ==UserScript==
+// @name         Chat GGNET com Estilo Refinado e Animações Elegantes (Vermelho Forte)
+// @namespace    http://tampermonkey.net/
+// @version      1.6
+// @description  Chat flutuante com links interativos, animações suaves e estilo vermelho vibrante.
+// @author       Você
+// @match        https://ggnet.sz.chat/user/agent*
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    const style = document.createElement('style');
     style.textContent = `
     .chat-container {
         position: fixed;
